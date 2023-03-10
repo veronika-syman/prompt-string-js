@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+header{
+    background-color: aqua;
+    height:300px;
+    text-align: center;
+    line-height: 300px;
+}
+main{
+    background-color: blue;
+
+    width: 900px;
+    margin: 10px auto;
+}
+footer{
+    background-color: chartreuse;
+    height: 100px;
+}
+header h1{
+    display: inline;
+    font-size: 150px;
+    vertical-align: middle;
+}
+header img{
+    display: inline-block;
+    height: 200px;
+    vertical-align: middle;
+    margin-right: 300px;
+}
+#phone-icon{
+    height: 100px;
+    display: block;
+    position: fixed;
+right: 100px;
+bottom: 100px;
+border-radius: 50%;
+}
+
+.link-img{
+    width: 200px;
+    height: 200px;
+   display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px 0 0;
+}
+#link-img1{background-image: url(../src/images/Zunge_raus.JPG);}
+#link-img2{background-image: url(../src/images/Felis_silvestris_silvestris.jpg);}
+#link-img3{background-image: url(../src/images/sddefault.jpg);}
+
+.link-about{
+display:inline-block ;
+width: 680px;
+height: 200px;
+overflow: hidden;
+
+}
